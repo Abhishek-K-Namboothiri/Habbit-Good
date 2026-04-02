@@ -58,9 +58,9 @@ This app is my accountability partner. Maybe it'll be yours too.
 
 <div align="center">
 
-|           Home Screen            |                  Insights                  |                  Insights                  |                  Calendar                  |                  Calendar                  |
-| :------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: |
-| ![Home](./screenshots/home1.png) | ![Insights 1](./screenshots/insights1.jpg) | ![Insights 2](./screenshots/insights2.jpg) | ![Calendar 1](./screenshots/calender1.jpg) | ![Calendar 2](./screenshots/calender2.jpg) |
+|           Home Screen            |                  Insights                  |                  Insights                  |                  Calendar                  |
+| :------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: |
+| ![Home](./screenshots/home1.png) | ![Insights 1](./screenshots/insights1.jpg) | ![Insights 2](./screenshots/insights2.jpg) | ![Calendar 1](./screenshots/calender1.jpg) |
 
 </div>
 
@@ -140,7 +140,7 @@ Here's the thing about habit apps — you open them **every single morning**. So
 
 The last thing you need is a 3-second splash screen.
 
-That's why Habbit uses **[MMKV](https://github.com/mrousavy/react-native-mmkv)** — a high-performance key-value storage library originally built at WeChat, handling millions of users. It's:
+That's why Habbit-Good uses **[MMKV](https://github.com/mrousavy/react-native-mmkv)** — a high-performance key-value storage library originally built at WeChat, handling millions of users. It's:
 
 - 🏎️ **~30x faster** than AsyncStorage
 - 📦 **Tiny** — adds minimal size to the app bundle
@@ -204,13 +204,3 @@ Built at 2AM by someone who missed their 10PM bedtime habit.
 ```
 
 **🚀 Start small. Stay consistent. Let the streaks do the talking.**
-
-<br/>
-
-⭐ **If this app helped you build even one good habit, drop a star. It means a lot.**
-
-<br/>
-
-Made with ☕ + 😤 + a lot of missed gym sessions
-
-</div>
