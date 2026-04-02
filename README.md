@@ -3,12 +3,12 @@
 <br/>
 
 ```
-██╗  ██╗ █████╗ ██████╗ ██████╗ ██╗████████╗
-██║  ██║██╔══██╗██╔══██╗██╔══██╗██║╚══██╔══╝
-███████║███████║██████╔╝██████╔╝██║   ██║
-██╔══██║██╔══██║██╔══██╗██╔══██╗██║   ██║
-██║  ██║██║  ██║██████╔╝██████╔╝██║   ██║
-╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═════╝ ╚═╝   ╚═╝
+██╗  ██╗ █████╗ ██████╗ ██████╗ ██╗████████╗     ██████╗  ██████╗  ██████╗ ██████╗
+██║  ██║██╔══██╗██╔══██╗██╔══██╗██║╚══██╔══╝    ██╔════╝ ██╔═══██╗██╔═══██╗██╔══██╗
+███████║███████║██████╔╝██████╔╝██║   ██║       ██║  ███╗██║   ██║██║   ██║██║  ██║
+██╔══██║██╔══██║██╔══██╗██╔══██╗██║   ██║       ██║   ██║██║   ██║██║   ██║██║  ██║
+██║  ██║██║  ██║██████╔╝██████╔╝██║   ██║       ╚██████╔╝╚██████╔╝╚██████╔╝██████╔╝
+╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═════╝ ╚═╝   ╚═╝        ╚═════╝  ╚═════╝  ╚═════╝ ╚═════╝
 ```
 
 ### _Because discipline isn't born — it's built._
@@ -56,13 +56,11 @@ This app is my accountability partner. Maybe it'll be yours too.
 
 ## 📱 Screenshots
 
-> _Add your screenshots below — replace the placeholder paths with your actual image files._
-
 <div align="center">
 
-|            Home Screen             |                  Add Habit                   |                 Streak View                  |
-| :--------------------------------: | :------------------------------------------: | :------------------------------------------: | -------------------------------------------- | -------------------------------------------- |
-| `![Home](./screenshots/home1.png)` | `![Insights 1](./screenshots/insights1.jpg)` | `![Insights 2](./screenshots/insights2.jpg)` | `![Calender 1](./screenshots/calender1.jpg)` | `![Calender 2](./screenshots/calender2.jpg)` |
+|           Home Screen            |                  Insights                  |                  Insights                  |                  Calendar                  |                  Calendar                  |
+| :------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: | :----------------------------------------: |
+| ![Home](./screenshots/home1.png) | ![Insights 1](./screenshots/insights1.jpg) | ![Insights 2](./screenshots/insights2.jpg) | ![Calendar 1](./screenshots/calender1.jpg) | ![Calendar 2](./screenshots/calender2.jpg) |
 
 </div>
 
@@ -72,13 +70,14 @@ This app is my accountability partner. Maybe it'll be yours too.
 
 ### ✅ The Essentials
 
-| Feature                     | Description                                                          |
-| --------------------------- | -------------------------------------------------------------------- |
-| ☑️ **Checkbox Habits**      | Simple done/not-done tracking — meditation, journaling, cold showers |
-| ⏱️ **Timer Habits**         | Set a duration target — reading 20 mins, workout 45 mins             |
-| 🔢 **Count Habits**         | Hit a number goal — 8 glasses of water, 100 pushups                  |
-| 🔥 **Streak Tracking**      | Watch your consistency stack up day after day                        |
-| 🎨 **Full Personalization** | Custom icons, accent colors, and targets per habit                   |
+| Feature                     | Description                                                                |
+| --------------------------- | -------------------------------------------------------------------------- |
+| ☑️ **Checkbox Habits**      | Simple done/not-done tracking — meditation, journaling, cold showers       |
+| ⏱️ **Timer Habits**         | Set a duration target — reading 20 mins, workout 45 mins                   |
+| 🔢 **Count Habits**         | Hit a number goal — 8 glasses of water, 100 pushups                        |
+| 🔥 **Streak Tracking**      | Watch your consistency stack up day after day                              |
+| 🎨 **Full Personalization** | Custom icons, accent colors, and targets per habit                         |
+| 🔔 **Local Notifications**  | Smart reminders that fire from your device — no server, no internet needed |
 
 ### 🛡️ Privacy & Performance (The stuff that matters)
 
@@ -115,6 +114,26 @@ Most apps treat your habits as data points to harvest. We don't.
 
 ---
 
+## 🔔 Notifications That Respect You
+
+Most apps use push notifications routed through their servers — which means they know when you use the app, what habits you have, and when you're active.
+
+Habbit does it differently.
+
+All reminders are **local notifications** — scheduled entirely on your device, triggered by your device's clock, with zero server involvement.
+
+```
+📵  No push notification server
+🌐  Works in airplane mode
+👁️  We never see when or if you open a reminder
+🔕  You control them — snooze, dismiss, or turn off anytime
+⚙️  Per-habit scheduling — set different times for different habits
+```
+
+> _Your 6AM workout reminder is between you and your phone. Nobody else._
+
+---
+
 ## ⚡ Performance Philosophy
 
 Here's the thing about habit apps — you open them **every single morning**. Sometimes half-asleep. Sometimes already running late.
@@ -138,9 +157,9 @@ Your habits load instantly. Your streak updates instantly. Your morning stays un
 📱  React Native        — Cross-platform mobile framework
 🔷  TypeScript          — Type-safe, maintainable codebase
 ⚡  MMKV                — Blazing fast local key-value storage
-🗃️  SQLite              — Structured history & analytics data
 🔄  Redux Toolkit       — Predictable state management
 🎨  Lucide Icons        — Clean, consistent iconography
+🔔  Notifee             — Local notifications, fully on-device
 ```
 
 ---
@@ -158,8 +177,8 @@ react-native >= 0.73
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/habbit.git
-cd habbit
+git clone https://github.com/Abhishek-K-Namboothiri/Habbit-Good.git
+cd Habbit-Good
 
 # Install dependencies
 npm install
@@ -175,8 +194,6 @@ npx react-native run-android
 # Run on iOS
 npx react-native run-ios
 ```
-
----
 
 <div align="center">
 
